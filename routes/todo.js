@@ -1,5 +1,5 @@
 const express = require('express');
-const {create, read, removeTod} = require('../controller/index');
+const {create, read, removeTodo} = require('../controller/index');
 const { remove } = require('../model/todo');
 
 const router = express.Router();
